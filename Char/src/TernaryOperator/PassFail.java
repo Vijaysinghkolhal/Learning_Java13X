@@ -20,10 +20,20 @@ public class PassFail
         System.out.println(smallest);
 
         int num = -5;
-
         String result1= (num > 0) ? "Positive": (num < 0) ? "Negative" : "Zero";
-
         System.out.println(result1);
+
+
+        //Nested Ternary Operator
+        //age=23
+        //adge <18minor
+        //age >18 <65=Adult
+        //age >65 senior
+
+        int age=123;
+        String result2=(age<18)? "Minor":(age<65)?"Adult":"senior";
+        System.out.println(result2);
+
 
     }
 }
